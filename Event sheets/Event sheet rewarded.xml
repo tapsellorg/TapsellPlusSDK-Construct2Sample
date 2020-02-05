@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet rewarded</name>
+    <events>
+        <event-block sid="712391466223760">
+            <conditions>
+                <condition id="0" name="On clicked" sid="906359264424349" type="Button" />
+                <condition id="-14" name="Pick by unique ID" sid="692393056219972" type="Button">
+                    <param id="0" name="Unique ID">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="569598553655205" type="System">
+                    <param id="0" name="Which">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="209393770467793">
+            <conditions>
+                <condition id="0" name="On clicked" sid="803750015594958" type="Button" />
+                <condition id="-14" name="Pick by unique ID" sid="473108052993459" type="Button">
+                    <param id="0" name="Unique ID">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request rewarded" sid="128699736288070" type="TapsellPlus">
+                    <param id="0" name="Zone Id">&quot;5cfaa802e8d17f0001ffb28e&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="338935892536583">
+            <conditions>
+                <condition id="0" name="On clicked" sid="777170665690666" type="Button" />
+                <condition id="-14" name="Pick by unique ID" sid="996428986342085" type="Button">
+                    <param id="0" name="Unique ID">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Show ad" sid="715696679699589" type="TapsellPlus">
+                    <param id="0" name="Zone Id">&quot;5cfaa802e8d17f0001ffb28e&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="846203099031218">
+            <conditions />
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

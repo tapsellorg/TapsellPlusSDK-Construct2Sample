@@ -9,7 +9,11 @@
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>27500</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Tapsell" id="TapsellPlus" version="1">TapsellPlus</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -35,15 +39,33 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="Button" sid="942400118574821">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text" sid="496561141466603">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TapsellPlus" sid="276555880014536">
+            <plugin id="TapsellPlus" />
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>main.xml</layout>
+        <layout>rewarded.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet main.xml</event-sheet>
+        <event-sheet>Event sheet rewarded.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="TapsellPlus" uid="5">
+            <properties>
+                <tapsellappid>alsoatsrtrotpqacegkehkaiieckldhrgsbspqtgqnbrrfccrtbdomgjtahflchkqtqosa</tapsellappid>
+            </properties>
+        </global-instance>
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>
